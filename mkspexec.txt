@@ -1,0 +1,5 @@
+	t11212, t10092, t12345 = symbols("t11212 t10092 t12345")
+	equations = [Eq(t11212 + t10092, 540), Eq(t12345 + t10092, 530), Eq(t12345 + t11212, 550), ]
+
+	teamopr = solve(equations)
+	return teamopr
